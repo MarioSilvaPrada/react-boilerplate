@@ -1,5 +1,5 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 /*eslint-disable */
 import regeneratorRuntime from 'regenerator-runtime'; // to use async await
 import './index.css';
