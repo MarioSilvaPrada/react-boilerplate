@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: {
-    index: './src/index.tsx',
+    index: './src/index.js',
   },
   output: {
     path: `${__dirname}/dist`,
