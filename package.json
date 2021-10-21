@@ -1,6 +1,6 @@
 {
   "name": "react-mariosilvaprada",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "mariosilvaprada",
   "license": "MIT",
@@ -13,6 +13,9 @@
     "hooks": {
       "pre-commit": "yarn lint"
     }
+  },
+  "bin": {
+    "create-boilerplate": "./"
   },
   "dependencies": {
     "@babel/preset-env": "^7.10.4",
